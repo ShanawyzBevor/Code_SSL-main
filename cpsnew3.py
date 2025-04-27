@@ -15,6 +15,8 @@ from PIL import Image
 from model import VNet
 from dataset2 import LAHeart, RandomCrop, RandomNoise, RandomRotFlip, ToTensor
 
+print("hllow world")
+
 # Dice Loss (Only for Supervised)
 def dice_loss(score, target):
     target = target.long()
